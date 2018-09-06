@@ -1,0 +1,17 @@
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: #cecece;
+}
+li {
+  list-style: none;
+  padding: 20px 50px;
+}
+li a {
+  text-decoration: none;
+  color: black;
+}
+li:hover {
+  background-color: #dedede;
+
+}

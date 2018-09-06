@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  titulo = 'Mi aplicacion de angular';
+  urlImagen = "https://angular.io/generated/images/guide/architecture/databinding.png";
+
+  tarjetas = [
+    { nombre: 'angular'},
+    { nombre: 'react'},
+    { nombre: 'vue'},
+    { nombre: 'polymer'}
+    ];
+
+  mostarAlerta() {
+    console.log('alerta');
+  }
 }
